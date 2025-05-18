@@ -8,7 +8,7 @@ class NetworkDelayTime{
 		}
 		
 		//Use a priority queue to select node with the min distance
-		PriorityQueue<int[]> pq = new PriorityQueue(Comparator.comparintInt(a -> a[1]));
+		PriorityQueue<int[]> pq = new PriorityQueue(Comparator.comparingInt(a -> a[1]));
 		pq.offer(new int[]{k,0});//Start from node k with the distance 0
 		
 		//Initialize distance array with the infinity
