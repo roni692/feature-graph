@@ -40,7 +40,7 @@ public class RottenOrange{
 			}	
 		}
 	}
-		minutes;
+		minutes++;
 	}
 		return freshCount == 0 ? minutes - 1 : -1;
 	}
